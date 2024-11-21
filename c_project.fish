@@ -68,8 +68,8 @@ function list-c-project
 end
 
 function c-project
-    # Set directory to ~/Dev/Projects/Python/
-    set directory ~/Dev/Projects/Python
+    # Set directory to ~/Dev/Projects/C/
+    set directory ~/Dev/Projects/C
 
     # List all subdirectories (projects) under the given directory
     set projects (find $directory -mindepth 1 -maxdepth 1 -type d)
