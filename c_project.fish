@@ -176,4 +176,3 @@ function create-c-makefile
     echo -e "clean:\n\t\trm -rf \$(OBJDIR)/*.o \$(EXEC)" >> Makefile
     echo ".PHONY: all clean"        >> Makefile
 end
-echo test
